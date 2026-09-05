@@ -1,0 +1,6 @@
+pyrogram
+tgcrypto
+python-telegram-bot
+aiohttp
+requests
+pytz
