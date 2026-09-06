@@ -14,15 +14,12 @@ TOKEN = os.getenv("BOT_TOKEN", "8623478967:AAG5Xe1uEHR5NlZogSlHvgDLu4_HHgsvBVg")
 GROUP_LINK = os.getenv("GROUP_LINK", "https://t.me/amirqwbcode")
 
 V2RAY_SOURCES = [
-    "https://raw.githubusercontent.com/salehhamze/Sub/main/all",
-    "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt",
+    "https://raw.githubusercontent.com/newtest2354-commits/AristaPanel/refs/heads/main/configs.txt/combined/ALL/ALL.txt",
+    "https://shz.al/~Amir0_0_hamedvpns",
 ]
 
 PROXY_SOURCES: List[Dict[str, str]] = [
-    {"url": "https://raw.githubusercontent.com/hookzof/socks5_list/master/tg/mtproto.json", "type": "json"},
-    {"url": "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/json/mtproto-proxies.json", "type": "json"},
-    {"url": "https://raw.githubusercontent.com/ALIILAPRO/MTProtoProxy/main/mtproto.txt", "type": "text"},
-    {"url": "https://raw.githubusercontent.com/MhdiTaheri/ProxyCollector/main/proxy.txt", "type": "text"},
+    {"url": "https://mtpro.xyz/mtproto"}
 ]
 
 MAX_MSG_LEN = 3800
