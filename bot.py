@@ -19,7 +19,7 @@ V2RAY_SOURCES = [
 ]
 
 PROXY_SOURCES: List[Dict[str, str]] = [
-    {"url": "https://mtpro.xyz/mtproto"}
+    {"url": "https://raw.githubusercontent.com/SoliSpirit/mtproto/refs/heads/master/all_proxies.txt", "type": "txt"}
 ]
 
 MAX_MSG_LEN = 3800
